@@ -4,7 +4,8 @@
 
 int main()
 {
-	printf("Hello world");
+	SER_Init();
+	printf("Hello world\r\n");
 
 	while (1)
 	{
